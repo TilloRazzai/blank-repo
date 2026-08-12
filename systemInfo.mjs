@@ -1,5 +1,5 @@
 import {bytesToSize} from './FreeMemory.mjs';
-import os from 'os';
+import os from 'node:os';
 
 console.log('System Information:')
 console.log(`Operation System: ${os.type()} (${os.release()})`);
